@@ -9,12 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@preline/overlay": "^2.4.0",
     "boxicons": "^2.1.4",
     "cash-dom": "^8.1.5",
+    "preline": "^2.4.0",
     "sass": "^1.77.8",
     "velocity": "^0.7.3",
     "velocity-animate": "^1.5.2",
-    "vue": "^3.4.31"
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
