@@ -9,6 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "boxicons": "^2.1.4",
+    "cash-dom": "^8.1.5",
+    "sass": "^1.77.8",
+    "velocity": "^0.7.3",
+    "velocity-animate": "^1.5.2",
     "vue": "^3.4.31"
   },
   "devDependencies": {
