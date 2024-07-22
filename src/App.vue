@@ -1,14 +1,13 @@
 <template>
   <div class="h-screen bg-gray-200 flex">
     <section
-      class="bg-[#FFDFD6] w-64 min-h-screen overflow-y-auto overscroll-auto"
+      class="bg-[#FFDFD6] w-64 min-h-screen overflow-y-auto overscroll-auto custom-scrollbar"
     >
       <div class="mx-auto pt-4 flex justify-center gap-3 items-center">
         <img src="./assets/logo.png" alt="Hairus logo" class="h-6 w-auto" />
         <span class="text-xl font-semibold">Hairus</span>
       </div>
       <div class="side-nav__divider mt-4 mx-auto my-6"></div>
-
       <ul>
         <li>
           <a href="javascript:;" class="side-menu" @click="toggleMenu">
@@ -74,6 +73,7 @@
             </li>
           </ul>
         </li>
+        <div class="side-nav__divider mt-4 mx-auto my-6"></div>
         <li>
           <a href="javascript:;" class="side-menu" @click="toggleMenu">
             <div class="side-menu__icon"><i class="bx bx-cog"></i></div>
@@ -449,6 +449,7 @@ onMounted(() => {});
 
 .side-menu__title {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
   padding: 10px;
@@ -483,7 +484,7 @@ onMounted(() => {});
 }
 
 .side-nav__divider {
-  height: 1px;
+  height: 0.5px;
   background-color: #b7b7b7;
   width: 80%;
   margin: 20px auto;
